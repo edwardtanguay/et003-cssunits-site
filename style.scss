@@ -12,37 +12,38 @@ body {
 	color: #ccc;
 	background-image: url("./images/sky.jpg");
 	background-size: 100vw 100vh;
-}
 
-h1 {
-	font-size: 1.5rem;
-	padding: 1rem;
-	color: rgb(224, 224, 141);
-}
+	h1 {
+		font-size: 1.5rem;
+		padding: 1rem;
+		color: rgb(224, 224, 141);
+	}
 
-h2 {
-	font-size: 1.2rem;
-	padding-bottom: 1rem;
-	color: rgb(216, 179, 110);
-}
+	article {
+		background-color: #444;
+		padding: 18px;
+		margin: 0 1rem 1rem 1rem;
+		border-radius: .5rem;
+		font-size: 3rem;
 
-p:last-child {
-	margin-bottom: 0;
-}
+		h2 {
+			font-size: 1.2rem;
+			padding-bottom: 1rem;
+			color: rgb(216, 179, 110);
+		}
 
-article {
-	background-color: #444;
-	padding: 18px;
-	margin: 0 1rem 1rem 1rem;
-	border-radius: .5rem;
-	font-size: 3rem;
-}
+		p:last-child {
+			margin-bottom: 0;
+		}
 
-article:last-child {
-	margin-bottom: 1rem;
-}
+		p {
+			font-size: 1rem;
+			margin-bottom: .5rem;
+		}
+	}
 
-p {
-	font-size: 1rem;
-	margin-bottom: .5rem;
+	article:last-child {
+		margin-bottom: 1rem;
+	}
+
 }
